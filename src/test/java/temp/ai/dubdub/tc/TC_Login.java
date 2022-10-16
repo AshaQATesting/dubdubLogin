@@ -42,9 +42,11 @@ public class TC_Login {
 		String[][] testLoginData = { 
 									{"both_empty", "", ""}, 
 									{"pass_empty", "test@gmail.com", ""}, 
-									{"email_empty", "", "123456"}, 
-									{"both_wrong", "wrong@gmail.com", "xyz123"}, 
-									{"both_correct", "test@gmail.com", "123456"} 
+									{"email_empty", "", "xyz@123"}, 
+									{"both_wrong", "invalid@xyz.com", "123456"}, 
+									{"both_correct", "valid@xyz.com", "xyz@123"},
+									{"email_invalid","invalid@xyz.com","xyz@123"},
+									{"pass_invalid","valid@xyz.com","123456"}
 								};
 		return testLoginData;
 	}
