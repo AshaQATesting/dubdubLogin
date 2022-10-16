@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Driver setup : ]]>
@@ -50,7 +50,7 @@
       <![CDATA[ EmailId set :  | ]]>
     </line>
     <line>
-      <![CDATA[  Password set : 123456 | ]]>
+      <![CDATA[  Password set : xyz@123 | ]]>
     </line>
     <line>
       <![CDATA[ Submit utton clicked | ]]>
@@ -65,10 +65,10 @@
       <![CDATA[ tc_both_wrong_login Start | ]]>
     </line>
     <line>
-      <![CDATA[ EmailId set : wrong@gmail.com | ]]>
+      <![CDATA[ EmailId set : invalid@xyz.com | ]]>
     </line>
     <line>
-      <![CDATA[  Password set : xyz123 | ]]>
+      <![CDATA[  Password set : 123456 | ]]>
     </line>
     <line>
       <![CDATA[ Submit utton clicked | ]]>
@@ -83,7 +83,43 @@
       <![CDATA[ tc_both_correct_login Start | ]]>
     </line>
     <line>
-      <![CDATA[ EmailId set : test@gmail.com | ]]>
+      <![CDATA[ EmailId set : valid@xyz.com | ]]>
+    </line>
+    <line>
+      <![CDATA[  Password set : xyz@123 | ]]>
+    </line>
+    <line>
+      <![CDATA[ Submit utton clicked | ]]>
+    </line>
+    <line>
+      <![CDATA[ Login Perform Done | ]]>
+    </line>
+    <line>
+      <![CDATA[ tc_both_correct_login End | ]]>
+    </line>
+    <line>
+      <![CDATA[ tc_email_invalid_login Start | ]]>
+    </line>
+    <line>
+      <![CDATA[ EmailId set : invalid@xyz.com | ]]>
+    </line>
+    <line>
+      <![CDATA[  Password set : xyz@123 | ]]>
+    </line>
+    <line>
+      <![CDATA[ Submit utton clicked | ]]>
+    </line>
+    <line>
+      <![CDATA[ Login Perform Done | ]]>
+    </line>
+    <line>
+      <![CDATA[ tc_email_invalid_login End | ]]>
+    </line>
+    <line>
+      <![CDATA[ tc_pass_invalid_login Start | ]]>
+    </line>
+    <line>
+      <![CDATA[ EmailId set : valid@xyz.com | ]]>
     </line>
     <line>
       <![CDATA[  Password set : 123456 | ]]>
@@ -95,15 +131,15 @@
       <![CDATA[ Login Perform Done | ]]>
     </line>
     <line>
-      <![CDATA[ tc_both_correct_login End | ]]>
+      <![CDATA[ tc_pass_invalid_login End | ]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-10-16T17:53:37 IST" name="Default suite" finished-at="2022-10-16T17:54:01 IST" duration-ms="23578">
+  <suite started-at="2022-10-16T23:57:14 IST" name="Dubdub" finished-at="2022-10-16T23:57:40 IST" duration-ms="25407">
     <groups>
     </groups>
-    <test started-at="2022-10-16T17:53:37 IST" name="Default test" finished-at="2022-10-16T17:54:01 IST" duration-ms="23578">
+    <test started-at="2022-10-16T23:57:14 IST" name="Login" finished-at="2022-10-16T23:57:40 IST" duration-ms="25407">
       <class name="temp.ai.dubdub.tc.TC_Login">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:37 IST" name="setDriver" finished-at="2022-10-16T17:53:42 IST" duration-ms="5208" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:14 IST" name="setDriver" finished-at="2022-10-16T23:57:17 IST" duration-ms="2561" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver setup : ]]>
@@ -113,7 +149,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:42 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:46 IST" duration-ms="3977" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:17 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:20 IST" duration-ms="3333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +188,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:46 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:50 IST" duration-ms="3553" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:20 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:23 IST" duration-ms="3253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +227,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:50 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:53 IST" duration-ms="3462" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:23 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:27 IST" duration-ms="3226" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,7 +241,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[123456]]>
+                <![CDATA[xyz@123]]>
               </value>
             </param>
           </params>
@@ -217,7 +253,7 @@
               <![CDATA[ EmailId set :  | ]]>
             </line>
             <line>
-              <![CDATA[  Password set : 123456 | ]]>
+              <![CDATA[  Password set : xyz@123 | ]]>
             </line>
             <line>
               <![CDATA[ Submit utton clicked | ]]>
@@ -230,7 +266,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:53 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:57 IST" duration-ms="3583" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:27 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:30 IST" duration-ms="3247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,12 +275,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[wrong@gmail.com]]>
+                <![CDATA[invalid@xyz.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[xyz123]]>
+                <![CDATA[123456]]>
               </value>
             </param>
           </params>
@@ -253,10 +289,10 @@
               <![CDATA[ tc_both_wrong_login Start | ]]>
             </line>
             <line>
-              <![CDATA[ EmailId set : wrong@gmail.com | ]]>
+              <![CDATA[ EmailId set : invalid@xyz.com | ]]>
             </line>
             <line>
-              <![CDATA[  Password set : xyz123 | ]]>
+              <![CDATA[  Password set : 123456 | ]]>
             </line>
             <line>
               <![CDATA[ Submit utton clicked | ]]>
@@ -269,7 +305,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:57 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:54:01 IST" duration-ms="3703" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:30 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:33 IST" duration-ms="3284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,12 +314,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[valid@xyz.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[123456]]>
+                <![CDATA[xyz@123]]>
               </value>
             </param>
           </params>
@@ -292,10 +328,10 @@
               <![CDATA[ tc_both_correct_login Start | ]]>
             </line>
             <line>
-              <![CDATA[ EmailId set : test@gmail.com | ]]>
+              <![CDATA[ EmailId set : valid@xyz.com | ]]>
             </line>
             <line>
-              <![CDATA[  Password set : 123456 | ]]>
+              <![CDATA[  Password set : xyz@123 | ]]>
             </line>
             <line>
               <![CDATA[ Submit utton clicked | ]]>
@@ -308,7 +344,85 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:33 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:36 IST" duration-ms="3240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email_invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid@xyz.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ tc_email_invalid_login Start | ]]>
+            </line>
+            <line>
+              <![CDATA[ EmailId set : invalid@xyz.com | ]]>
+            </line>
+            <line>
+              <![CDATA[  Password set : xyz@123 | ]]>
+            </line>
+            <line>
+              <![CDATA[ Submit utton clicked | ]]>
+            </line>
+            <line>
+              <![CDATA[ Login Perform Done | ]]>
+            </line>
+            <line>
+              <![CDATA[ tc_email_invalid_login End | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01_login -->
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@3e11f9e9]" started-at="2022-10-16T23:57:36 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T23:57:40 IST" duration-ms="3228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pass_invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid@xyz.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ tc_pass_invalid_login Start | ]]>
+            </line>
+            <line>
+              <![CDATA[ EmailId set : valid@xyz.com | ]]>
+            </line>
+            <line>
+              <![CDATA[  Password set : 123456 | ]]>
+            </line>
+            <line>
+              <![CDATA[ Submit utton clicked | ]]>
+            </line>
+            <line>
+              <![CDATA[ Login Perform Done | ]]>
+            </line>
+            <line>
+              <![CDATA[ tc_pass_invalid_login End | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01_login -->
       </class> <!-- temp.ai.dubdub.tc.TC_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login -->
+  </suite> <!-- Dubdub -->
 </testng-results>
