@@ -1,5 +1,6 @@
 package temp.ai.dubdub.po; 
 
+//import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,11 +10,13 @@ import org.testng.Reporter;
 
 public class PO_Login {
 	
-	WebDriver driver;
+//	WebDriver driver;
 	
 	@FindBy(xpath="//input[@type='text']")
 	WebElement eleEmail;
 	
+	//WebElement eleEmail=driver.findElement(By.cssSelector("input[type='text']"));
+
 	
 	@FindBy(css="input[type='password']")
 	WebElement elePass;
@@ -22,7 +25,7 @@ public class PO_Login {
 	WebElement eleButton;
 	
 	public PO_Login(WebDriver driver){
-		this.driver = driver;
+//		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -31,11 +34,11 @@ public class PO_Login {
 		Reporter.log(" EmailId set : "+ emailVal +" | " );
 	}
 	
-	
 	private void setPassword(String passVal) {
 		elePass.sendKeys(passVal);
 		Reporter.log("  Password set : "+ passVal +" | " );
-	}
+	} 
+	
 	private void clickButton() {
 		eleButton.click();
 		Reporter.log(" Submit utton clicked | " );

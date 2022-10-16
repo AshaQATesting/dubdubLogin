@@ -98,12 +98,12 @@
       <![CDATA[ tc_both_correct_login End | ]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-10-16T01:16:24 IST" name="Dubdub" finished-at="2022-10-16T01:16:49 IST" duration-ms="24698">
+  <suite started-at="2022-10-16T17:53:37 IST" name="Default suite" finished-at="2022-10-16T17:54:01 IST" duration-ms="23578">
     <groups>
     </groups>
-    <test started-at="2022-10-16T01:16:24 IST" name="Login" finished-at="2022-10-16T01:16:49 IST" duration-ms="24698">
+    <test started-at="2022-10-16T17:53:37 IST" name="Default test" finished-at="2022-10-16T17:54:01 IST" duration-ms="23578">
       <class name="temp.ai.dubdub.tc.TC_Login">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T01:16:24 IST" name="setDriver" finished-at="2022-10-16T01:16:30 IST" duration-ms="5614" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:37 IST" name="setDriver" finished-at="2022-10-16T17:53:42 IST" duration-ms="5208" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver setup : ]]>
@@ -113,7 +113,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T01:16:30 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T01:16:34 IST" duration-ms="4571" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:42 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:46 IST" duration-ms="3977" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T01:16:34 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T01:16:38 IST" duration-ms="3537" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:46 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:50 IST" duration-ms="3553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T01:16:38 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T01:16:41 IST" duration-ms="3484" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:50 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:53 IST" duration-ms="3462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,7 +230,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T01:16:41 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T01:16:45 IST" duration-ms="3685" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:53 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:53:57 IST" duration-ms="3583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -269,7 +269,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_01_login -->
-        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T01:16:45 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T01:16:49 IST" duration-ms="3715" status="PASS">
+        <test-method signature="tc_01_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:temp.ai.dubdub.tc.TC_Login@550dbc7a]" started-at="2022-10-16T17:53:57 IST" name="tc_01_login" data-provider="loginCredential" finished-at="2022-10-16T17:54:01 IST" duration-ms="3703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,6 +309,6 @@
           </reporter-output>
         </test-method> <!-- tc_01_login -->
       </class> <!-- temp.ai.dubdub.tc.TC_Login -->
-    </test> <!-- Login -->
-  </suite> <!-- Dubdub -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

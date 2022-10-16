@@ -13,14 +13,16 @@ public class DriverManager {
 	 
 	public static  WebDriver getDriver(String drivertype, String url) {
 		WebDriver driver = null;
-		WebDriverManager.chromedriver().setup();
 		
-		if(drivertype.equalsIgnoreCase("chrome") || drivertype=="") {
+		if(drivertype.equalsIgnoreCase("chrome")) {
+			WebDriverManager.chromedriver().setup();
 			driver  = new ChromeDriver();
 		}
 		else if(drivertype.equalsIgnoreCase("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
 			driver  = new FirefoxDriver();
 		}else {
+			WebDriverManager.chromedriver().setup();
 			driver  = new ChromeDriver();
 		}
 		Reporter.log("Driver setup : "+ drivertype );
@@ -29,6 +31,7 @@ public class DriverManager {
 		
 		driver.get(url);
 		Reporter.log("The browser is opened with URL : "+ url +" |");
+		
 		return driver;
 	}
 	
